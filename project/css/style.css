@@ -1,0 +1,143 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vh;
+}
+
+.container {
+    background-color: rgb(40, 75, 232);
+    color: white;
+    height: 11vh;
+    width: 100vw;
+    border: 1px solid rgb(72, 70, 70); 
+    z-index: 10px;
+
+}
+
+
+.container ul li {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    right: 26px;
+  }
+
+.container input[type=search] {
+    margin: 15px;
+    padding: 15px;
+    width: 30vw;
+    height: 5vh;
+    position: relative;
+    right: -300px;
+}
+
+header img {
+    height: 6vh;
+    width: 7vw;
+    position: relative;
+    right: 371px;
+    bottom: -15px;
+}
+
+.first {
+
+    position: relative;
+    right: -280px;
+    height: 6vh;
+    width: 3vw;
+
+}
+
+.second {
+    background-color: white;
+    color: rgb(72, 161, 251);
+    font-weight: 600px;
+    position: relative;
+    right: -341px;
+    width: 8vw;
+    height: 6vh;
+
+}
+
+.box1{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    height: 8vh;
+    border: 1px solid rgb(72, 70, 70);
+}
+
+
+.box1 ul{
+    display: flex;
+    list-style: none;
+    margin-right: 70px;
+}
+
+.box1 ul li{
+
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.box2{
+
+    width: 100vh;
+    
+} 
+
+.box2 img{
+    height: 30vh;
+    /* width: 100vw; */
+}
+
+
+.dabba1{
+    height: 8vh;
+    width: 98vw;
+    border: 1px solid rgb(131, 130, 130);
+    cursor: pointer;
+}
+
+
+.dabba2{
+    height: 60vh;
+    border: 1px solid rgb(131, 130, 130);
+    width: 98vw;
+    /* cursor: pointer; */
+    display: flex;
+    list-style: none;
+}
+
+
+footer {
+    background-color: rgb(6, 140, 242);
+    color: white;
+    height: 12vh;
+    width: 100vw;
+    font-family: 'Caprasimo', cursive;
+}
+
+.img1{
+    height: 10vh;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.img li{
+    
+}
+
+p {
+    padding: 28px;
+}
